@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+position:fixed;
+top:0px;
+left:0px;
+width:100%;
+padding: 10px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+}
+
+.logo {
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    font-size: 25px;
+
+}
+
+
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration:none;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: .2s
+    
+
+}
+
+.navigation a:hover{
+    color:rgb(38, 127, 187);
+    font-weight: 700;
+}
+
+.contato{
+color:rgb(255, 255, 255);
+text-decoration: none;
+background:rgb(38, 127, 187);
+border-radius: 25px;
+border: 3px solid rgb(38, 127, 187);
+font-weight: 500;
+padding: 8px 30px;
+transition: .2s;
+}
+
+.contato:hover{
+color: rgb(255,255,255);
+background: rgb(255, 174, 25) ;
+border: 3px solid transparent;
+font-weight: bold;
+font-weight: 800;
+}
+
+.Menu{
+position:relative;
+width: 100%;
+height: 100vh;
+background: url(empresa2.jpg);
+background-position: center;
+text-shadow: 0.1em 0.1em  #333333fb;
+background-size: cover;
+display: flex;
+align-items: center;
+padding: 30px 50px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 25px;
+}
+
+.Servicos{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background: url(imagem_servicos.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    padding: 100px 50px ;
+    }
+
+.descricao{color:#ffffff}
+
+.img2:hover { transform: scale(1.2)}
+
+
+.img3:hover { transform: scale(1.2)}
+
+.img4:hover { transform: scale(1.2)}
+
+.portfolio{
+        position:relative;
+        width: 100%;
+        height: 100vh;
+        background: url(edificio.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: top;
+        padding: 100px 50px ;
+        }
+    
+
+.parte7{
+    display:grid;
+    overflow: hidden;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    width: 90%;
+    height:150px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+    margin-top: 20px;
+}
+
+
+.fig1{
+    margin-top: 2px;
+    margin-left: 10px;
+    width:250px;
+    height:130px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+  font-size: clamp(70px, 20vw, 200px);
+}
+.fig1:hover{transform: scale(1.7)}
+
+.fig2{
+    margin-top: 2px;
+    margin-left: 10px;
+    width:250px;
+    height:130px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+  font-size: clamp(70px, 20vw, 200px);
+}
+.fig2:hover{transform: scale(1.7)}
+
+.fig3{
+    margin-top: 2px;
+    margin-left: 10px;
+    width:250px;
+    height:130px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+  font-size: clamp(70px, 20vw, 200px);
+}
+.fig3:hover{transform: scale(1.7)}
+
+
+.descricao_portifolio{width:600px}
+
+
+
+.img2{
+    overflow: hidden;
+    float:left;
+    
+    width: 300px;
+    height:400px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+   
+}
+
+.img2 .card-img{
+    height:50%;
+    width: 60%;
+    object-fit:cover;
+    border-radius:50%;
+    margin-left: 60px;
+}
+
+
+.img3{
+    overflow:hidden ;
+    float:left;
+    width: 300px;
+    height:400px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+    margin-left: 210px;
+}
+
+.img3 .card-img{
+    height:50%;
+    width: 60%;
+    object-fit:cover;
+    border-radius:50%;
+    
+    margin-left: 60px;
+}
+
+
+.img4{
+    overflow:hidden ;
+    float:right;
+    width: 300px;
+    height:400px;
+    border-radius: 50px;
+    background: #44444431;
+    padding:10px ;
+    margin-left: 156px;
+}
+
+.img4 .card-img{
+    height:50%;
+    width: 60%;
+    object-fit:cover;
+    border-radius:50%;
+    
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+.titulo1{
+    font-size: 16;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.descricao_portifolio{
+    font-size: 8;
+    color:#ffffff;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+
+.icons{
+    position: absolute;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.icons a{
+    display: inline-block;
+width:60px;
+font-size: 25px;
+}
+
+.contato0{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background: url(empresa7.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    padding: 100px 50px ;
+}
+.contato1{
+       color:#ffffff }
+.icon{
+    
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    }
+.tema{margin-left: 10px;}
+.endereco{margin-bottom: 15px;}
+.telefone{margin-bottom: 15px;}
+.email{margin-bottom: 15px;}
